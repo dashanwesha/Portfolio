@@ -139,7 +139,7 @@ const projects = [
       },
     ],
     image: home,
-    source_code_link: "https://dashanwesha.github.io/Real-Estate/",
+    source_code_link: "https://github.com/dashanwesha/Real-Estate",
   },
   {
     name: "Real Time-Tracker",
@@ -160,7 +160,7 @@ const projects = [
       },
     ],
     image: map,
-    source_code_link: "https://dashanwesha.github.io/Real-Time-Tracker/"
+    source_code_link: "https://github.com/dashanwesha/Real-Time-Tracker"
   },
   {
     name: "Sorting Visualizer",
@@ -181,7 +181,7 @@ const projects = [
       },
     ],
     image: sorting,
-    source_code_link: "https://dashanwesha.github.io/sorting-visualizer/"
+    source_code_link: "https://github.com/dashanwesha/sorting-visualizer"
   },
   {
     name: "3D Apple Site",
@@ -198,7 +198,7 @@ const projects = [
       }
     ],
     image: Apple,
-    source_code_link: " https://dashanwesha.github.io/Apple-Project/"
+    source_code_link: " https://github.com/dashanwesha/Apple-Project"
   },
 ];
 
