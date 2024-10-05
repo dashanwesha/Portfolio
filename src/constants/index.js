@@ -115,8 +115,7 @@ const experiences = [
     ],
   },
   {
-    title: "Full stack Developer(Intern)",
-    company_name: "Sarvin",
+    title: "Full stack Intern(Sarvin)",
     iconBg: "#E6DEDD",
     points: [
       "Assisted in developing and maintaining server-side functionality using Node.js.",
