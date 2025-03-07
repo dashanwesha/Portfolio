@@ -6,8 +6,7 @@ import {
   html,
   css,
   reactjs,
-  home,
-  map,
+  chat,
   redux,
   tailwind,
   sorting,
@@ -17,6 +16,7 @@ import {
   git,
   figma,
   threejs,
+  salon,
 } from "../assets";
 
 export const navLinks = [
@@ -128,20 +128,24 @@ const experiences = [
 
 const projects = [
   {
-    name: "Real Estate",
+    name: "Chat-Socket-App",
     description:
-      "Developed a full-stack Real-Estate application using the MERN stack, enabling house renting, selling and renting.",
+      "Developed a real-time chat application using Next.js 15 and Socket.IO,enabling seamless instant messaging with Web-sockets.",
     tags: [
       {
-        name: "Mern Stack",
+        name: "Socket.io",
         color: "green-text-gradient",
       },
+      {
+        name: "Node.js",
+        color: "blue-text-gradient",
+      },
     ],
-    image: home,
-    source_code_link: "https://github.com/dashanwesha/Real-Estate",
+    image: chat,
+    source_code_link: "https://chat-socket-frontend-n562.vercel.app/",
   },
   {
-    name: "Real Time-Tracker",
+    name: "Appointment-Booking",
     description:
       "Built a time tracker using Node.js, Express and Socket.IO, enabling live updates,real-time communication between clients and servers.",
     tags: [
@@ -150,16 +154,16 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "Express",
+        name: "React.js",
         color: "green-text-gradient",
       },
       {
-        name: "Socket.io",
+        name: "MongoDB",
         color: "pink-text-gradient",
       },
     ],
-    image: map,
-    source_code_link: "https://github.com/dashanwesha/Real-Time-Tracker"
+    image: salon,
+    source_code_link: "https://appointment-booking-dashanweshas-projects.vercel.app/"
   },
   {
     name: "Sorting Visualizer",
@@ -180,7 +184,7 @@ const projects = [
       },
     ],
     image: sorting,
-    source_code_link: "https://github.com/dashanwesha/sorting-visualizer"
+    source_code_link: "https://dashanwesha.github.io/sorting-visualizer/"
   },
   {
     name: "3D Apple Site",
@@ -197,8 +201,10 @@ const projects = [
       }
     ],
     image: Apple,
-    source_code_link: " https://github.com/dashanwesha/Apple-Project"
+    source_code_link: "https://apple-project-murex.vercel.app/"
   },
 ];
+
+
 
 export { services, technologies, experiences, projects };

@@ -27,8 +27,8 @@ import Apple from "./Apple.jpg";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import home from "./home.png";
-import map from "./map.png";
+import chat from "./chat.png";
+import salon from "./salon.jpg";
 import sorting from "./sorting.jpg";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -61,8 +61,8 @@ export {
   shopify,
   starbucks,
   tesla,
-  home,
-  map,
+  chat,
+  salon,
   jobit,
   tripguide,
 };

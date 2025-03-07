@@ -93,8 +93,20 @@ const Works = () => {
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
+
+      <div className="w-full flex justify-end mt-10">
+        <a
+          href="https://dashanwesha.github.io/github/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-white px-8 py-8 rounded-md text-lg font-bold"
+        >
+          See All
+        </a>
+      </div>
     </>
   );
 };
+
 
 export default SectionWrapper(Works, "");
